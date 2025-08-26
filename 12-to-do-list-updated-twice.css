@@ -1,0 +1,33 @@
+.task-grid,
+.input-task-grid {
+    display: grid;
+    grid-template-columns: 250px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.input-task-grid {
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+.task-name,
+.date-entry {
+    font-size: medium;
+    padding: 10px;
+}
+.add-task-button {
+    background-color: rgb(123, 202, 4);
+    border: none;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    cursor: pointer;
+}
+.delete-task-button {
+    background-color: rgb(202, 77, 4);
+    border: none;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    cursor: pointer;
+}
